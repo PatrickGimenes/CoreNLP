@@ -1,0 +1,14 @@
+#referencia li a {
+    color: #A51B0B;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#referencia {
+    list-style-type: none;
+}
+
+#referencia li {
+    padding-top: 15px
+}

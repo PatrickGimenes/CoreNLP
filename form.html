@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="icon" href="./imagens/favicon.ico" type="image/icon type" />
+    <link rel="stylesheet" href="./estilos/main.css" />
+    <link rel="stylesheet" href="./estilos/form.css" />
+  </head>
+  <body>
+    <img class="title" src="./imagens/corenlp-title.png" alt="logo" />
+
+    <ul class="navbar">
+      <li class="li"><a href="./index.html">Home</a></li>
+      <li class="li"><a href="./sobre.html">Sobre</a></li>
+      <li class="li"><a href="./tutorial_texto.html">Tutoriais</a></li>
+      <li class="li"><a href="./contato.html">Contato</a></li>
+      <li class="li"><a href="./referencia.html">Referências</a></li>
+    </ul>
+
+    <div id="content">
+      <form name="form" id="formulario">
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="name"
+          placeholder="Qual o seu nome?"
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Qual o seu email?"
+        />
+
+        <label for="cidade">Cidade:</label>
+        <select id="cidade" name="cidade">
+          <option value="prata">Águas da Prata</option>
+          <option value="pocos">Poços de Caldas</option>
+          <option value="sao-joao">São João da Boa Vista</option>
+        </select>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+          <option value="mg">Minas Gerais - MG</option>
+          <option value="sp">São Paulo - SP</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          placeholder="Como podemos ajudar?"
+          style="height: 200px"
+        ></textarea>
+
+        <div class="btt">
+          <input type="reset" value="Apagar" />
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+
+    <div id="footer"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

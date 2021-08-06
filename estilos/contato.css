@@ -1,0 +1,61 @@
+#content {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#cicero{
+    flex-basis: auto;
+    text-align: center;
+    border: solid 4px #F9EAC3;
+    border-radius: 10px;
+}
+
+#douglas{
+    flex-basis: auto;
+    text-align: center;
+    border: solid 4px #F9EAC3;
+    border-radius: 10px;
+}
+
+#patrick{
+    flex-basis: auto;
+    text-align: center;
+    border: solid 4px #F9EAC3;
+    border-radius: 10px;
+}
+
+.foto{
+    padding-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+#btt{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+button{
+    height: 60px;
+    width: 250px;
+    background-color: #A51B0B;
+    color: #F9EAC3;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+button:hover{
+    cursor: pointer;
+
+}

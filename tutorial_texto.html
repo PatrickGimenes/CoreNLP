@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/main.css" />
+    <link rel="stylesheet" href="./estilos/tutorial.css" />
+    <link rel="icon" href="./imagens/favicon.ico" type="image/icon type" />
+    <title>Tutorial</title>
+  </head>
+  <body>
+    <img class="title" src="./imagens/corenlp-title.png" alt="logo" />
+
+    <ul class="navbar">
+      <li class="li"><a href="./index.html">Home</a></li>
+      <li class="li"><a href="./sobre.html">Sobre</a></li>
+      <li class="li"><a href="./tutorial_texto.html">Tutoriais</a></li>
+      <li class="li"><a href="./contato.html">Contato</a></li>
+      <li class="li"><a href="./referencia.html">Referências</a></li>
+    </ul>
+
+    <article id="content">
+      <h3>Tutorial em vídeo:</h3>
+
+      <div id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/5dzpURnOZhg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h3>Tutorial em texto:</h3>
+      <p>
+        1. Primeiro devemos acessar o site da
+        <a href="https://stanfordnlp.github.io/CoreNLP/index.html"
+          >Stanford CoreNLP</a
+        >.<br />
+        Na página inicial temos uma breve introdução da ferramenta e no lado
+        esquerdo temos todos os tópicos abordados pela página.
+      </p>
+      <img
+        class="imagem"
+        src="./imagens/pagina_inicial.png"
+        alt="pagina_inicial"
+      />
+
+      <p>
+        1.2 Ao clicar sobre o botão Demo seremos direcionados para a página
+        abaixo onde teremos uma demonstração de como a ferramenta funciona e ao
+        clicar sobre o hiperlink
+        <a href="https://corenlp.run/">corenlp.run</a> seremos redirecionados
+        para um ambiente virtual para que possamos testar a ferramenta.
+      </p>
+      <img class="imagem" src="./imagens/demo.png" alt="demo" />
+      <p>Abaixo segue a explicação de cada campo:</p>
+      <img class="imagem" src="./imagens/exemplo.png" alt="exemplo" />
+      <ul>
+        <li>
+          A – Local onde deve ser adicionado o texto com a finalidade de ser
+          analisado, neste exemplo vamos usar a frase: “Marie was born in
+          Paris.”
+        </li>
+        <li>
+          B - Nesta área podemos adicionar ou remover as anotações linguísticas
+          que serão analisadas.
+        </li>
+        <li>C – Neste campo selecione a língua do texto de entrada.</li>
+        <li>
+          D – Após realizar os passos anteriores, clique no botão “submit”, e
+          obterá o texto analisado.
+        </li>
+        <li>E – Pronto! Texto analisado.</li>
+      </ul>
+
+      <p>
+        Importante ressaltar que essa ferramenta permite analisar o texto
+        através de palavras isoladas relacionadas ao contexto prévio de seu
+        banco de dados. Muito útil para realização de pesquisas científicas,
+        porém tem como pontos negativos a não disponibilização de material de
+        apoio para a utilização da plataforma e o não reconhecimento da língua
+        portuguesa.
+      </p>
+    </article>
+    <div id="footer"></div>
+  </body>
+</html>

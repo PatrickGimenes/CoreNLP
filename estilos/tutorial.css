@@ -1,0 +1,36 @@
+p {
+    text-align: justify;
+}
+h1 {
+    padding: 50px 0px 50px 0px;
+}
+#video, iframe {
+    width: 500px; 
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#content {
+    padding: 0px 50px 0px 50px;
+    margin: 50px;
+    text-align: justify;
+}
+
+p a {
+    color: #A51B0B;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.imagem {  
+    margin: 50px 0px 50px 0px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
