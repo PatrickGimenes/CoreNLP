@@ -1,21 +1,18 @@
 #content {
   width: 100%;
-  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
+  justify-content: space-evenly;
   align-items: center;
-  padding: 30px 0px 30px 0px;
+  margin-bottom: 30px;
 }
 
 #item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
   transition: 0.3s;
   border-radius: 5px;
-  width: 33.33%;
-  float: left;
-  /* flex-basis: auto; */
-  text-align: center;
+
   border: solid 4px #f9eac3;
   border-radius: 10px;
 }
@@ -29,6 +26,8 @@
 }
 
 .foto {
+  display: block;
+  margin: 0 auto;
   padding-top: 30px;
   width: 150px;
   height: 150px;
