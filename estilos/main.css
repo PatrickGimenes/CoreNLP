@@ -14,6 +14,8 @@ h3 {
 .title {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -43,7 +45,7 @@ h3 {
 .navbar li a:hover {
   background-color: #f9eac3;
   font-weight: bold;
-  color: #000;
+  color: #a51b0b;
 }
 
 #footer {
